@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free coming soon template with jQuery countdown">
+
+  <title>SignUp Form</title>
+
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.css" rel="stylesheet">
+
+  <!-- siimple style -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1><b>SIGN UP</h1>
+          <form class="form-inline signup" role="form">
+           
+
+        </div>
+      </div>
+	  
+	  <!-- fill form 1-->
+      <div class="row contctform">
+        <div class="col-md-4 col-md-offset-2">
+          <h3>Personal details </h3>
+        </div>
+        <form action="" method="post" role="form" class="contactForm">
+          <div class="col-md-4 col-md-offset-3">
+            <div class="form">
+              <div class="form-group">
+                <input type="text" name="Fname" class="form-control" id="Fname" placeholder="First Name" data-rule="minlen:3" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+			  <div class="form-group">
+                <input type="text" name="Lname" class="form-control" id="Lname" placeholder="Last Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" name="" id="Mnumber" placeholder="mobile number" data-rule="minlen:10" maxlength ="10"  data-msg="Please enter at least 10 digit of your number" />
+                <div class="validation"></div>
+              </div>
+			  <div class="form-group">
+                <input type="text" name="City" class="form-control" id="city" placeholder="City" data-rule="minlen:4" data-msg="Please enter your city name" />
+                <div class="validation"></div>
+              </div>
+			  <div class="form-group">
+                <input type="text" name="State" class="form-control" id="state" placeholder="State" data-rule="minlen:4" data-msg="Please enter your state name" />
+                <div class="validation"></div>
+              </div>
+			  <div class="form-group">
+                <input type="text" name="country" class="form-control" id="country" placeholder="country" data-rule="minlen:4" data-msg="Please enter your country" />
+                <div class="validation"></div>
+              </div>	
+            </div>
+          </div>        
+        </form>
+      </div>
+	  <!--end form 1  -->
+	  
+	  <!--fil form 2  -->
+	  <div class="row contctform">
+        <div class="col-md-4 col-md-offset-2">
+          <h3>Sign In Details</h3>
+        </div>
+        <form action="" method="post" role="form" class="contactForm">
+          <div class="col-md-4 col-md-offset-3">
+            <div class="form">
+              <div class="form-group">
+                <input type="text" name="login Id" class="form-control" id="lid" placeholder="Login Id" data-msg="Please valid login id 5 " />
+                <div class="validation"></div>
+              </div>
+			  
+			   <div class="form-group">
+				<input type="password" id="Pd5" class="form-control" placeholder="password" data-rule="minlen:10" data-msg="Please enter a valid password"/>
+				<div class="validation"></div>
+              </div>
+			  <div class="form-group">
+               <input type="password" id="Pd6" class="form-control" placeholder="Re-password" data-rule="minlen:10" data-msg="Please enter the valid password"/>
+			   <div class="validation"></div>
+			    </div>
+			  
+			  <div class="col-md-4 col-md-offset-2" ><button type="submit" class="btn btn-theme">Register</button>
+			  </div>			  
+            </div>
+			  
+		 <div><button type="Reset" class="btn btn-theme">Reset</button>
+		 </div>	
+          </div> 
+        </form>
+      </div>
+	  <!-- End form 2-->
+
+      <div class="row">
+	  <div class="social">
+            <a href="#"><i  class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p class="copyright">&copy; Agculture- All Rights Reserved</p>
+          <div class="credits">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
